@@ -16,7 +16,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Re: Animeflix",
+  title: "Re: Animedex",
   description: "An anime discovery, streaming site. Ad-free.",
 };
 
@@ -37,7 +37,7 @@ export default function RootLayout({
               <Link href="/">
                 <Image
                   className="ml-8"
-                  alt="animeflix logo"
+                  alt="Animedex logo"
                   width={30}
                   height={30}
                   src="/animeflix.svg"
@@ -75,8 +75,8 @@ export default function RootLayout({
             {/* Footer */}
             <div className="text-white bg-slate-900 w-full p-8 text-sm grid place-items-center">
               <p>
-                &copy; Animeflix {new Date().getFullYear()} by&nbsp;
-                <a className="text-blue-500 hover:text-blue-600" href="https://github.com/Sodiumchloridy">Sodiumchloridy</a>
+                &copy; Animedex {new Date().getFullYear()} by&nbsp;
+                <a className="text-blue-500 hover:text-blue-600" href="https://github.com/skgupta507">SK Gupta</a>
                 .
               </p>
               <p>
